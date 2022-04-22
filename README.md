@@ -1,7 +1,5 @@
 # React Opinionated Folder Structure
 
-## What is this project?
-
 This project is an opinionated folder structure for React projects. The motivation is to create a folder structure that you can start with and focus on the features to build instead of folder conventions.
 
 This project is based on React's `create-react-app` and has a set of folders as an example on how you can setup your project.
@@ -46,8 +44,10 @@ Contains all HTTP request files.
 
 Contains all assets (`.svg`, `.png`, `.gif` files).
 
-## Design of this project
+## Design choices
 
+**Typescript**: It comes with Typescript already setup,  it's recommended you use Typescript with React.
+**Unit Tests**: It has tests for components using Testing Library, follow its guidelines and write unit tests for your components.
 
 ## Scripts
 
