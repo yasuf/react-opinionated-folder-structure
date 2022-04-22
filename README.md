@@ -18,11 +18,11 @@ Then look around and see the folders and then copy over what you need to copy in
 
 ## Folder descriptions
 
-### `src/components/`
+`src/components/`
 
 Contains all the React components for the App.
 
-### `src/components/<MyComponent>`
+`src/components/<MyComponent>`
 
 Contains a specific component.
 
@@ -30,7 +30,7 @@ Files for a component:
 * `src/components/<MyComponent>/index.test.tsx`
 * `src/components/<MyComponent>/index.tsx`
 
-### `src/hooks/`
+`src/hooks/`
 
 Contains all React hooks. For example:
 
@@ -42,15 +42,15 @@ Contains all React hooks. For example:
 // TODO Write counter tests example.
 ```
 
-### `src/request/`
+`src/request/`
 
 Contains all HTTP requests.
 
-### `src/third_party/`
+`src/third_party/`
 
 Contains all classes for third party services. Ex. A service class to establish a Pusher connection.
 
-### `src/assets/`
+`src/assets/`
 
 Contains all assets (.svg, .png, .gif files).
 
