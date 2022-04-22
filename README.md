@@ -27,8 +27,11 @@ Contains all the React components for the App.
 Contains a specific component.
 
 Files for a component:
+
 `src/components/<MyComponent>/index.test.tsx` - Test file
+
 `src/components/<MyComponent>/index.tsx` - Component file
+
 `src/components/<MyComponent>/styles.css` - Styles file
 
 **`src/hooks/`**
