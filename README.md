@@ -2,7 +2,7 @@
 
 ## What is this project?
 
-This project is an opinionated folder structure for React projects. The motivation for this project is to offer a folder structure that you can start with and to let the developer focus on the features to build instead of folder conventions.
+This project is an opinionated folder structure for React projects. The motivation is to create a folder structure that you can start with and focus on the features to build instead of folder conventions.
 
 This project is based on React's `create-react-app` and has a set of folders as an example on how you can setup your project.
 
@@ -14,7 +14,7 @@ The best way to understand this project is to clone it:
 git clone https://github.com/yasuf/react-opinionated-folder-structure
 ```
 
-Then look around and see the folders and then copy over what you need to copy into your project to mimic what this project already has.
+Then look around, see the folders and copy over what you need into your project or just start editing this project and turning it into your app.
 
 ## Folder descriptions
 
@@ -22,7 +22,7 @@ Then look around and see the folders and then copy over what you need to copy in
 
 Contains all the React components for the App.
 
-**`src/components/<MyComponent>`**
+**`src/components/<MyComponent>/`**
 
 Contains a specific component.
 
@@ -40,7 +40,7 @@ Contains all React hooks.
 
 **`src/request/`**
 
-Contains all HTTP requests.
+Contains all HTTP request files.
 
 **`src/assets/`**
 
