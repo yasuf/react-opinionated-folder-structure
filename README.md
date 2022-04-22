@@ -47,6 +47,7 @@ Contains all assets (`.svg`, `.png`, `.gif` files).
 ## Design choices
 
 **Typescript**: It comes with Typescript already setup,  it's recommended you use Typescript with React.
+
 **Unit Tests**: It has tests for components using Testing Library, follow its guidelines and write unit tests for your components.
 
 ## Scripts
