@@ -1,8 +1,63 @@
-# Getting Started with Create React App
+# React Opinionated Folder Structure
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What is this project?
 
-## Available Scripts
+This project is an opinionated folder structure for React projects. The motivation for this project is to offer a folder structure that you can start with and to let the developer focus on the features to build instead of folder conventions.
+
+This project is based on React's `create-react-app` and has a set of folders as an example on how you can setup your project.
+
+## Getting started
+
+The best way to understand this project is to clone it:
+
+```
+git clone https://github.com/yasuf/react-opinionated-folder-structure
+```
+
+Then look around and see the folders and then copy over what you need to copy into your project to mimic what this project already has.
+
+## Folder descriptions
+
+### `src/components/`
+
+Contains all the React components for the App.
+
+### `src/components/<MyComponent>`
+
+Contains a specific component.
+
+Files for a component:
+* `src/components/<MyComponent>/index.test.tsx`
+* `src/components/<MyComponent>/index.tsx`
+
+### `src/hooks/`
+
+Contains all React hooks. For example:
+
+```javascript
+// src/hooks/counter.tsx
+// TODO: Write counter hook example.
+
+// src/hooks/counter.test.tsx
+// TODO Write counter tests example.
+```
+
+### `src/request/`
+
+Contains all HTTP requests.
+
+### `src/third_party/`
+
+Contains all classes for third party services. Ex. A service class to establish a Pusher connection.
+
+### `src/assets/`
+
+Contains all assets (.svg, .png, .gif files).
+
+## Design of this project
+
+
+## Scripts
 
 In the project directory, you can run:
 
@@ -44,27 +99,3 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
