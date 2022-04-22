@@ -18,41 +18,30 @@ Then look around and see the folders and then copy over what you need to copy in
 
 ## Folder descriptions
 
-`src/components/`
+**`src/components/`**
 
 Contains all the React components for the App.
 
-`src/components/<MyComponent>`
+**`src/components/<MyComponent>`**
 
 Contains a specific component.
 
 Files for a component:
-* `src/components/<MyComponent>/index.test.tsx`
-* `src/components/<MyComponent>/index.tsx`
+`src/components/<MyComponent>/index.test.tsx` - Test file
+`src/components/<MyComponent>/index.tsx` - Component file
+`src/components/<MyComponent>/styles.css` - Styles file
 
-`src/hooks/`
+**`src/hooks/`**
 
-Contains all React hooks. For example:
+Contains all React hooks.
 
-```javascript
-// src/hooks/counter.tsx
-// TODO: Write counter hook example.
-
-// src/hooks/counter.test.tsx
-// TODO Write counter tests example.
-```
-
-`src/request/`
+**`src/request/`**
 
 Contains all HTTP requests.
 
-`src/third_party/`
+**`src/assets/`**
 
-Contains all classes for third party services. Ex. A service class to establish a Pusher connection.
-
-`src/assets/`
-
-Contains all assets (.svg, .png, .gif files).
+Contains all assets (`.svg`, `.png`, `.gif` files).
 
 ## Design of this project
 
