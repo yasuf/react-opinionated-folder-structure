@@ -1,4 +1,5 @@
 import Button from '../Button';
+import icon from '../../assets/person-through-window-solid.svg';
 
 import { useGetDog } from '../../hooks/useGetDog';
 import './App.css';
@@ -17,6 +18,7 @@ function App() {
           title="Testing button"
           onClick={() => alert("testing button")}
         />
+        <img src={icon} alt="icon" height="50"/>
       </header>
     </div>
   );
