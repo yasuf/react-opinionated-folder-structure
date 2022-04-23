@@ -16,13 +16,7 @@ npm install
 npm start
 ```
 
-The best way to understand this project is to clone it:
-
-```
-git clone https://github.com/yasuf/react-opinionated-folder-structure
-```
-
-Then look around, see the folders and copy over what you need into your project or just start editing this project and turning it into your app.
+After this look around, see the folders and copy over what you need into your project or just start editing this project and turning it into your app.
 
 ## Folder descriptions
 
