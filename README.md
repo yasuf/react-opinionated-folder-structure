@@ -1,8 +1,10 @@
 # React Opinionated Folder Structure
 
-This project is an opinionated folder structure for React projects. The motivation is to create a folder structure that you can start with and focus on the features to build instead of folder conventions.
+An opinionated folder structure for React projects.
 
-This project is based on React's `create-react-app` and has a set of folders as an example on how you can setup your project.
+The motivation is to create a folder structure that you can start with and focus on the features to build instead of folder conventions.
+
+This is based on React's `create-react-app`.
 
 ## Getting started
 
@@ -18,11 +20,11 @@ Then look around, see the folders and copy over what you need into your project 
 
 **`src/components/`**
 
-Contains all the React components for the App.
+All the React components for the App.
 
 **`src/components/<MyComponent>/`**
 
-Contains a specific component.
+All files related to a single component.
 
 Files for a component:
 
@@ -34,15 +36,15 @@ Files for a component:
 
 **`src/hooks/`**
 
-Contains all React hooks.
+All React hooks.
 
 **`src/request/`**
 
-Contains all HTTP request files.
+All HTTP request files.
 
 **`src/assets/`**
 
-Contains all assets (`.svg`, `.png`, `.gif` files).
+All assets (`.svg`, `.png`, `.gif` files).
 
 ## Design choices
 
