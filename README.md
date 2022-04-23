@@ -8,6 +8,14 @@ This is based on React's `create-react-app`.
 
 ## Getting started
 
+Run:
+```shell
+git clone https://github.com/yasuf/react-opinionated-folder-structure
+cd react-opinionated-folder-structure
+npm install
+npm start
+```
+
 The best way to understand this project is to clone it:
 
 ```
